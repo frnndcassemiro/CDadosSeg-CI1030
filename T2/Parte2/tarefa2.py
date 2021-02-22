@@ -42,4 +42,4 @@ for k in s1.difference(s2):
         print ('Somente',sys.argv[1],'possui a seção',k,':',permissao(k,d1))
 print ("-----------------------------")
 for k in s2.difference(s1):
-        print ('Somente',sys.argv[2],'possui a seção',k,':',permissao(k,d2))
+        print ('Somente',sys.argv[2],'possui a seção',k,':',permissao(k,d2))   

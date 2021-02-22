@@ -1,7 +1,3 @@
-# IMAGE_SCN_MEM_EXECUTE 0x20 00 00 00 The section can be executed as code.
-# IMAGE_SCN_MEM_READ 0x40000000 The section can be read.
-# IMAGE_SCN_MEM_WRITE 0x80000000 The section can be written to.
-
 import sys
 import pefile
 
@@ -32,4 +28,4 @@ for section in pe.sections: #para cada secao do exe
                 dic[key] = saida   
 
 for k in dic: #printa o dicionario na saida padrao
-        print (dic[k])
+        print (dic[k])    
